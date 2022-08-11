@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-main: #fa6464;
+}
+
+html,
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a::before,
+a::after {
+  text-decoration: none;
+  color: unset;
+}

@@ -1,0 +1,49 @@
+.app__article-blog {
+  width: 60%;
+  padding: 1rem;
+  margin: 1.25rem auto;
+  border-radius: 0.25rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 350ms ease;
+
+  &:hover {
+    transform: scale(105%);
+  }
+
+  &_title {
+    color: #fa6464;
+  }
+
+  p {
+    @media (max-width: 400px) {
+      font-size: 14px;
+    }
+  }
+
+  &_delete {
+    border: none;
+    background-color: var(--color-main);
+    color: white;
+    padding: 10px 2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &_backbutton {
+    border: none;
+    background-color: #e6e6e6;
+    color: #000;
+    padding: 10px 2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.app__newblog {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  &-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-main);
+
+    @media (max-width: 400px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &-form {
+    margin-top: 1.75rem;
+    padding: 1rem;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      input,
+      textarea,
+      select {
+        width: 100%;
+        margin-top: 5px;
+        padding: 6px 0;
+        border: 1px #ddd solid;
+        outline: none;
+        text-indent: 5px;
+        padding-left: 5px;
+      }
+
+      textarea {
+        padding: 1rem 0;
+        padding-left: 3px;
+      }
+
+      label {
+        color: #121212;
+      }
+    }
+    button {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      color: white;
+      background-color: #fa6464;
+      cursor: pointer;
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}
