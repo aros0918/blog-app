@@ -21,12 +21,12 @@ Blog app with react router.
 ### Links
 
 - Solution URL: [https://github.com/ErysCode7/blog-app](https://github.com/ErysCode7/blog-app)
-- Live Site URL: [https://gpt3-modern-web.vercel.app/](https://gpt3-modern-web.vercel.app/)
+- Live Site URL: [https://blog-app-azure.vercel.app/](https://blog-app-azure.vercel.app/)
 
 1. Clone the repo
 
    ```sh
-   git clone git@github.com:ErysCode7/gpt3.git
+   git clone git@github.com:ErysCode7/blog-app.git
    ```
 
 2. Install NPM packages
