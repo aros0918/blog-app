@@ -6,4 +6,23 @@
     color: var(--color-main);
     text-align: center;
   }
+
+  &_navigate {
+    text-align: center;
+    margin-top: 1rem;
+
+    button {
+      border: none;
+      outline: none;
+      border-radius: 0.25rem;
+      padding: 1rem;
+      background-color: var(--color-main);
+      color: white;
+      cursor: pointer;
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
 }

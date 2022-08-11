@@ -20,12 +20,13 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home blogs={blogs} />} />
+        <Route exact path="/" element={<Home blogs={blogs} />} />
         <Route
           path="/blog/:blogID"
           element={<BlogDetails blogs={blogs} setBlogs={setBlogs} />}
         />
         <Route
+          exact
           path="/newblog"
           element={<NewBlog blogs={blogs} setBlogs={setBlogs} />}
         />
