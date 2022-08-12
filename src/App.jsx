@@ -9,7 +9,8 @@ const App = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    setBlogs(JSON.parse(localStorage.getItem("blogs")));
+    const data = JSON.parse(localStorage.getItem("blogs"));
+    if (data) setBlogs(data);
   }, []);
 
   useEffect(() => {
