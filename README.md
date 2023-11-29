@@ -20,7 +20,7 @@ Blog app with react router.
 
 ### Links
 
-- Solution URL: [https://github.com/ErysCode7/blog-app](https://github.com/ErysCode7/blog-app)
+- Solution URL: [https://github.com/aros0918/blog-app](https://github.com/aros0918/blog-app)
 - Live Site URL: [https://blog-app-azure.vercel.app/](https://blog-app-azure.vercel.app/)
 
 1. Clone the repo
@@ -51,9 +51,3 @@ Blog app with react router.
 - SASS
 - Local Storage
 
-## Author
-
-- Facebook - [Erys Mozo](https://web.facebook.com/erys.mozo/)
-- Instagram - [\_erysmozo](https://www.instagram.com/_erysmozo/)
-- Frontend Mentor - [ErysCode7](https://www.frontendmentor.io/profile/ErysCode7)
-- LinkedIn - [Erys Mozo](https://www.linkedin.com/in/erys-mozo-280190230/)
